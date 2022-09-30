@@ -1,0 +1,13 @@
+.row{
+    background-color: aquamarine;
+    padding: 20px;
+    
+}
+footer{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 3px 3px 3px 6px grey;
+}

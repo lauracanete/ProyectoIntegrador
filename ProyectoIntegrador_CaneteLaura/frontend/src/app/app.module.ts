@@ -10,6 +10,10 @@ import { BanerComponent } from './components/baner/baner.component';
 import { AcercademiComponent } from './components/acercademi/acercademi.component';
 import { EstudiosComponent } from './components/estudios/estudios.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { CirculosComponent } from './components/circulos/circulos.component';
+import { ProyectoComponent } from './components/proyecto/proyecto.component';
+import { PiedepaginaComponent } from './components/piedepagina/piedepagina.component';
 
 
 
@@ -24,13 +28,17 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     AcercademiComponent,
     EstudiosComponent,
     ExperienciaComponent,
+    CirculosComponent,
+    ProyectoComponent,
+    PiedepaginaComponent,
   
     
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
