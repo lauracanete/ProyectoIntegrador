@@ -14,6 +14,8 @@ import { CirculosComponent } from './components/circulos/circulos.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { PiedepaginaComponent } from './components/piedepagina/piedepagina.component';
 import {HttpClient, HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 
@@ -31,6 +33,8 @@ import {HttpClient, HttpClientModule } from '@angular/common/http';
     CirculosComponent,
     ProyectoComponent,
     PiedepaginaComponent,
+    HomeComponent,
+    LoginComponent,
   
     
     
