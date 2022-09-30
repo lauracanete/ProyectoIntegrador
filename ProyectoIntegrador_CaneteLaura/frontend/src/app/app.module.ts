@@ -8,6 +8,8 @@ import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 import { SocialComponent } from './social/social.component';
 import { BanerComponent } from './components/baner/baner.component';
 import { AcercademiComponent } from './components/acercademi/acercademi.component';
+import { EstudiosComponent } from './components/estudios/estudios.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 
 
@@ -20,6 +22,8 @@ import { AcercademiComponent } from './components/acercademi/acercademi.componen
     SocialComponent,
     BanerComponent,
     AcercademiComponent,
+    EstudiosComponent,
+    ExperienciaComponent,
   
     
     
