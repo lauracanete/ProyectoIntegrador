@@ -1,4 +1,3 @@
-import { ReturnStatement } from '@angular/compiler';
 import { Injectable } from '@angular/core';
 
 const TOKEN_KEY = 'AuthToken';
@@ -9,7 +8,7 @@ const AUTHORITIES_KEY = 'authorities';
   providedIn: 'root'
 })
 export class TokenService {
-  roles: Array<String> = [];
+  roles: Array<string> = [];
 
   constructor() { }
 
@@ -39,14 +38,19 @@ export class TokenService {
   }
   public getAuthorities(): string[]{
     this.roles = [];
-    if(sessionStorage.getItem(AUTHORITIES_KEY)!).forEach((authority: any) => {
+    if(sessionStorage.getItem(AUTHORITIES_KEY)){
+       JSON.parse(sessionStorage.getItem(AUTHORITIES_KEY)!).forEach((authority: any) =>{
       this.roles.push(authority.authority);
       
     });
-    return this.roles,
+    
   }
+return this.roles;
 
-
+   }
+public logOut(): void{
+  window.sessionStorage.clear();
+}
 
     
 }
