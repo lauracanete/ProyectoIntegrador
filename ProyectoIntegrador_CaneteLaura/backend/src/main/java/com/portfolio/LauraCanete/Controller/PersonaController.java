@@ -3,7 +3,6 @@ package com.portfolio.LauraCanete.Controller;
 import com.portfolio.LauraCanete.Entity.Persona;
 import com.portfolio.LauraCanete.Interface.IPersonaService;
 import java.util.List;
-import static org.hibernate.criterion.Projections.id;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;

@@ -16,6 +16,7 @@ import { PiedepaginaComponent } from './components/piedepagina/piedepagina.compo
 import {HttpClient, HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import { interceptProvider } from './service/interceptorservice';
 
 
 
@@ -46,7 +47,9 @@ import { LoginComponent } from './components/login/login.component';
     NgCircleProgressModule.forRoot({}),
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    interceptProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
