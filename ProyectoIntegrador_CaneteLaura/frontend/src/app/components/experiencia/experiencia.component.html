@@ -1,56 +1,30 @@
 <div class="row">
     <h1>Experiencia Laboral</h1>
-    <div class="col-lg-9">
-        <ul>
-            <li>
-                <h1>Trabajo  1 </h1>  <h3>Años</h3>
-            </li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Laborum iusto numquam iste est cupiditate sunt pariatur necessitatibus fuga reiciendis, 
-                corporis quibusdam deserunt dolor quasi! Facere cum doloremque eligendi natus commodi.</p>
-        </ul>
-        <ul>
-            <li>
-                <h1>Trabajo 2 </h1>  <h3>Años</h3>
-            </li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Laborum iusto numquam iste est cupiditate sunt pariatur necessitatibus fuga reiciendis, 
-                corporis quibusdam deserunt dolor quasi! Facere cum doloremque eligendi natus commodi.</p>
-        </ul>
-        <ul>
-            <li>
-                <h1>Trabajo 2 </h1>  <h3>Años</h3>
-            </li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Laborum iusto numquam iste est cupiditate sunt pariatur necessitatibus fuga reiciendis, 
-                corporis quibusdam deserunt dolor quasi! Facere cum doloremque eligendi natus commodi.</p>
-        </ul>
-        <ul>
-            <li>
-                <h1>Trabajo 3 </h1>  <h3>Años</h3>
-            </li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Laborum iusto numquam iste est cupiditate sunt pariatur necessitatibus fuga reiciendis, 
-                corporis quibusdam deserunt dolor quasi! Facere cum doloremque eligendi natus commodi.</p>
-        </ul>
-        <ul>
-            <li>
-                <h1>Trabajo 4 </h1>  <h3>Años</h3>
-            </li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Laborum iusto numquam iste est cupiditate sunt pariatur necessitatibus fuga reiciendis, 
-                corporis quibusdam deserunt dolor quasi! Facere cum doloremque eligendi natus commodi.</p>
-        </ul>
-        <ul>
-            <li>
-                <h1>Trabajo 5 </h1>  <h3>Años</h3>
-            </li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Laborum iusto numquam iste est cupiditate sunt pariatur necessitatibus fuga reiciendis, 
-                corporis quibusdam deserunt dolor quasi! Facere cum doloremque eligendi natus commodi.</p>
-        </ul> 
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-dange" routerLink="/nuevaexpe"ngIf="isLogged">
+            Nueva Experiencia
+
+        </button>
 
     </div>
+
+
+     <div class="col-lg-1"></div>
+    <div class="col-lg-9">
+        <table class="table">
+            <tbody>
+                <tr *ngFort="let Experiencia of expe">
+                    <td>{{Experiencia.nombreE}}</td>
+                    <td>{{Experiencia.descripcionE}}</td>
+                    <td>EDITAR</td>
+                    <td>BORRAR</td>
+                </tr>
+            </tbody>
+    
+        </table>
+
+    </div>
+    
 
 </div>
 
