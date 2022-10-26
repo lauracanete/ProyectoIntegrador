@@ -19,7 +19,11 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { interceptProvider } from './service/interceptorservice';
 import { NewexperienciaComponent } from './components/experiencia/newexperiencia.component';
-import { EditExperienciaComponent } from './components/experiencia/edit-experiencia/edit-experiencia.component';
+import { EditareducacionComponent } from './components/estudios/editareducacion.component';
+import { EditarexperienciaComponent } from './components/experiencia/editarexperiencia.component';
+
+
+
 
 
 
@@ -40,7 +44,9 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
     HomeComponent,
     LoginComponent,
     NewexperienciaComponent,
-    EditExperienciaComponent,
+    EditarexperienciaComponent,
+    EditareducacionComponent,
+    
   
     
     

@@ -65,7 +65,7 @@ public class CEducacion {
         }
 
         Educacion educacion = new Educacion(
-                dtoeducacion.getNombreE(), dtoeducacion.getDescripcionE()
+               dtoeducacion.getNombreE(), dtoeducacion.getDescripcionE()
         );
         sEducacion.save(educacion);
         return new ResponseEntity(new Mensaje("Educacion creada"), HttpStatus.OK);
