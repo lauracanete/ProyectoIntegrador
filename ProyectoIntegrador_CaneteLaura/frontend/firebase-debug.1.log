@@ -1,0 +1,113 @@
+[debug] [2022-11-01T13:54:15.061Z] ----------------------------------------------------------------------
+[debug] [2022-11-01T13:54:15.064Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\I-MAG\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-01T13:54:15.065Z] CLI Version:   11.15.0
+[debug] [2022-11-01T13:54:15.066Z] Platform:      win32
+[debug] [2022-11-01T13:54:15.066Z] Node Version:  v16.16.0
+[debug] [2022-11-01T13:54:15.068Z] Time:          Tue Nov 01 2022 10:54:15 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-11-01T13:54:15.068Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-01T13:54:15.234Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-01T13:54:15.235Z] > authorizing via signed-in user (canetelaurapaola@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\lauraPrograma\ProyectoIntegrador\ProyectoIntegrador_CaneteLaura\frontend
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-01T13:54:34.595Z] Using project from CLI flag: proyectolaura-d6df4
+[debug] [2022-11-01T13:54:34.599Z] > refreshing access token with scopes: []
+[debug] [2022-11-01T13:54:34.614Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-11-01T13:54:34.615Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-01T13:54:34.948Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-11-01T13:54:34.948Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-01T13:54:35.000Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/proyectolaura-d6df4 [none]
+[debug] [2022-11-01T13:54:35.437Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/proyectolaura-d6df4 200
+[debug] [2022-11-01T13:54:35.438Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/proyectolaura-d6df4 {"projectId":"proyectolaura-d6df4","projectNumber":"86512449839","displayName":"proyectolaura","name":"projects/proyectolaura-d6df4","resources":{"hostingSite":"proyectolaura-d6df4"},"state":"ACTIVE","etag":"1_2ffbcf3b-ca51-497c-abe3-dd55a8a6f5c5"}
+[info] i  Using project proyectolaura-d6df4 (proyectolaura) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at C:\lauraPrograma\ProyectoIntegrador 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=659215244&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-11-01T13:54:35.523Z] Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:478:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-11-01T14:00:08.555Z] ----------------------------------------------------------------------
+[debug] [2022-11-01T14:00:08.559Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\I-MAG\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-01T14:00:08.560Z] CLI Version:   11.15.0
+[debug] [2022-11-01T14:00:08.561Z] Platform:      win32
+[debug] [2022-11-01T14:00:08.561Z] Node Version:  v16.16.0
+[debug] [2022-11-01T14:00:08.563Z] Time:          Tue Nov 01 2022 11:00:08 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-11-01T14:00:08.563Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-01T14:00:08.723Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-01T14:00:08.724Z] > authorizing via signed-in user (canetelaurapaola@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\lauraPrograma\ProyectoIntegrador\ProyectoIntegrador_CaneteLaura\frontend
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-01T14:00:27.295Z] Using project from CLI flag: proyectolaura-d6df4
+[debug] [2022-11-01T14:00:27.300Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/proyectolaura-d6df4 [none]
+[debug] [2022-11-01T14:00:27.847Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/proyectolaura-d6df4 200
+[debug] [2022-11-01T14:00:27.848Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/proyectolaura-d6df4 {"projectId":"proyectolaura-d6df4","projectNumber":"86512449839","displayName":"proyectolaura","name":"projects/proyectolaura-d6df4","resources":{"hostingSite":"proyectolaura-d6df4"},"state":"ACTIVE","etag":"1_2ffbcf3b-ca51-497c-abe3-dd55a8a6f5c5"}
+[info] i  Using project proyectolaura-d6df4 (proyectolaura) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at C:\lauraPrograma\ProyectoIntegrador 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=548715484&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-11-01T14:00:27.956Z] Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:478:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: An unexpected error has occurred.
