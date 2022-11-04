@@ -45,6 +45,7 @@ public class CExperiencia {
         
         Experiencia experiencia = new Experiencia(dtoexp.getNombreE(),dtoexp.getDescripcionE());
         sExperiencia.save(experiencia);
+        
         return new ResponseEntity(new Mensaje("Experiencia agregada"),HttpStatus.OK);
     }
     
@@ -53,7 +54,7 @@ public class CExperiencia {
         //Validamos si existe el ID.
         if(!sExperiencia.existsById(id))
             return new ResponseEntity(new Mensaje("El ID no existe"), HttpStatus.BAD_REQUEST);
-        
+        //compara nombre de la experiencia
         if(sExperiencia.existsByNombreE(dtoexp.getNombreE()) && sExperiencia.getByNombreE(dtoexp.getNombreE()).get().getId() !=id)
             return new ResponseEntity(new Mensaje("Esa experiencia ya existe"),HttpStatus.BAD_REQUEST);
         //No puede estar vacio
