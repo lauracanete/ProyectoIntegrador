@@ -5,10 +5,10 @@ import { EducacionService } from 'src/app/service/educacion.service';
 
 @Component({
   selector: 'app-nuevaeducacion',
-  templateUrl: './nuevaducacion.component.html',
+  templateUrl: './nuevaeducacion.component.html',
   styleUrls: ['./nuevaeducacion.component.css']
 })
-export class NuevaducacionComponent implements OnInit {
+export class NuevaeducacionComponent implements OnInit {
   nombreE: string;
   descripcionE: string;
 

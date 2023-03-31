@@ -24,7 +24,7 @@ public class NuevoUsuario {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void getNombre(String nombre) {
         this.nombre = nombre;
     }
 
