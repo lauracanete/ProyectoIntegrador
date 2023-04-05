@@ -4,15 +4,15 @@ import { Educacion } from 'src/app/model/educacion';
 import { EducacionService } from 'src/app/service/educacion.service';
 
 @Component({
-  selector: 'app-nuevaeducacion',
-  templateUrl: './nuevaeducacion.component.html',
-  styleUrls: ['./nuevaeducacion.component.css']
+  selector: 'app-newestudios',
+  templateUrl: './newestudios.component.html',
+  styleUrls: ['./newestudios.component.css']
 })
-export class NuevaeducacionComponent implements OnInit {
+export class NewestudiosComponent implements OnInit {
   nombreE: string;
   descripcionE: string;
 
-  constructor(private educacionS: EducacionService, private router: Router) { }
+  constructor(private educacionS: EducacionService,private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -23,13 +23,10 @@ export class NuevaeducacionComponent implements OnInit {
         alert("Estudio agregado correctamente");
         this.router.navigate(['']);
       }, err =>{
-        alert("Fallo");
-        this.router.navigate(['']);
-
+        alert("fallo");
+        this.router.navigate([""]);
       }
     )
-    
   }
-
 
 }

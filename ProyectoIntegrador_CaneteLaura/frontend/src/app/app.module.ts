@@ -21,6 +21,12 @@ import { interceptProvider } from './service/interceptorservice';
 import { NewexperienciaComponent } from './components/experiencia/newexperiencia.component';
 import { EditareducacionComponent } from './components/estudios/editareducacion.component';
 import { EditarexperienciaComponent } from './components/experiencia/editarexperiencia.component';
+import { NewestudiosComponent } from './components/estudios/newestudios.component';
+
+
+
+
+
 
 
 
@@ -46,6 +52,11 @@ import { EditarexperienciaComponent } from './components/experiencia/editarexper
     NewexperienciaComponent,
     EditarexperienciaComponent,
     EditareducacionComponent,
+    NewestudiosComponent,
+   
+   
+   
+   
     
   
     

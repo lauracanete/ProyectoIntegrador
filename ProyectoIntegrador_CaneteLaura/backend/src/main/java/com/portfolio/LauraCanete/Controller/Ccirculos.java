@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://localhosy:4200")
+@CrossOrigin(origins = "https://proyectolaura-d6df4.web.app")
 //@CrossOrigin(origins = "https://proyectolaura-d6df4.web.app")
 @RequestMapping("/circulos")
 public class Ccirculos {
