@@ -24,17 +24,6 @@ import { EditarexperienciaComponent } from './components/experiencia/editarexper
 import { NewestudiosComponent } from './components/estudios/newestudios.component';
 
 
-
-
-
-
-
-
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,7 +48,7 @@ import { NewestudiosComponent } from './components/estudios/newestudios.componen
    
     
   
-    
+   
     
   ],
   imports: [
