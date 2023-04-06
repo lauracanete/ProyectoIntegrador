@@ -35,7 +35,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/auth")
 //@CrossOrigin(origins = "http:localhost:4200")
-@CrossOrigin(origins = "https://proyectolaura-d6df4.web.app")
+@CrossOrigin(origins = {"https://proyectolaura-d6df4.web.app","http://loclhost:4200"})
 
 public class AuthController {
     @Autowired
