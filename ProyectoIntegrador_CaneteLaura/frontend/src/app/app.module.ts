@@ -22,6 +22,9 @@ import { NewexperienciaComponent } from './components/experiencia/newexperiencia
 import { EditareducacionComponent } from './components/estudios/editareducacion.component';
 import { EditarexperienciaComponent } from './components/experiencia/editarexperiencia.component';
 import { NewestudiosComponent } from './components/estudios/newestudios.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 
 @NgModule({
@@ -57,7 +60,9 @@ import { NewestudiosComponent } from './components/estudios/newestudios.componen
     BrowserAnimationsModule,
     FormsModule,
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
+    HttpClientModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage())
   ],
   providers: [
     interceptProvider

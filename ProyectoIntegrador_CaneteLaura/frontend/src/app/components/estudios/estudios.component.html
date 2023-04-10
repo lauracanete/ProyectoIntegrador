@@ -4,13 +4,8 @@
     <div class="col-lg-2">
         <button type="button" class="btn btn-dange" routerLink="/nuevaedu" *ngIf="isLogged">
             Agregar Educacion
-
-        </button>
-
+         </button>
     </div>
-
-
-    <div class="col-lg-1"></div>
     <div class="col-lg-9">
         <table class="table">
             <tbody>
@@ -21,7 +16,8 @@
                     <td>{{Educacion.descripcionE}}</td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-light" routerLink="/edidtedu/{{Educacion.id}}">
-                            <i class="bi bi-pencil-fill"></i>EDitAR</button>
+                            <i class="bi bi-pencil-fill"></i>EDitAR
+                        </button>
 
                     </td>
                     <td *ngIf="isLogged">
